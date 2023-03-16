@@ -1,3 +1,8 @@
+# 基于EasyLokal String Resource Helper
+- 我添加了对中文字符串的处理规则，默认使用Pinyin4j将中文拼音设置成String.xml的key
+- 默认不选择抽取的数据，需要自己手动勾选
+
+
 # EasyLokal String Resource Helper
 
 [![EasyLokal](https://cdn.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_150,h_30/https://easylokal.com/wp-content/uploads/2020/11/cropped-Screen-Shot-2020-11-02-at-12.46.31-AM-150x30.png)](https://easylokal.com)
@@ -28,4 +33,7 @@ Support for extracting hardcoded strings. This plugin looks for all the hardcode
 Also try out [EasyLokal Android SDK](https://easylokal.com) to give over-the-air string support to your APK and remove the efforts of releasing everytime you update strings in your product.
 
 Created and Supported by [EasyLokal](https://easylokal.com)
+
+
+
 
