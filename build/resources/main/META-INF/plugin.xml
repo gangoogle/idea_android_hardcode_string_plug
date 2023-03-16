@@ -1,0 +1,40 @@
+<idea-plugin>
+  <version>0.0.2</version>
+  <idea-version since-build="193.6494"/>
+  <id>com.easylokal.stringResourceHelper</id>
+  <name>Android String Manager</name>
+  <vendor email="hello@easylokal.com" url="https://easylokal.com">EasyLokal</vendor>
+  <description>
+      &lt;p&gt;Support for extracting hardcoded strings. This plugin looks for all the hardcoded strings in the project and replaces them with android default resource implementation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How To:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All you need to do is to provide the prefix to add before all the strings keys and the name of the custom application class(click &lt;a href="https://easylokal.com/blog/how-to-create-custom-application-class-in-android/"&gt;here&lt;/a&gt; to know how to make a custom application class).&lt;/p&gt;
+
+&lt;p&gt;After providing these two things, a list of all hardcoded strings will be on the screen where you just need to select the needed ones.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Provide custom context&lt;/li&gt;
+	&lt;li&gt;Automatically imports the necessary classes&lt;/li&gt;
+	&lt;li&gt;Allow to select/deselect the strings&lt;/li&gt;
+	&lt;li&gt;You can add a prefix to append before all keys&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This plugin is best to use with &lt;a href="https://easylokal.com"&gt;EasyLokal Android SDK&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Created and Supported by &lt;a href="https://easylokal.com"&gt;EasyLokal&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://github.com/easylokal/string-resource-helper-plugin"&gt;Github Page&lt;/p&gt;
+
+    
+    </description>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij"/>
+  <actions>
+    <group id="MyPlugin.TopMenu" text="Tools" description="MyPlugin Toolbar Menu">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+      <action id="StringExtractor" class="StringExtractor" text="Extract string resources" description="Helps extracting hardcoded string resources"/>
+    </group>
+  </actions>
+</idea-plugin>

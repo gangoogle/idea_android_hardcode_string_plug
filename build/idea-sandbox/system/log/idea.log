@@ -1,0 +1,152 @@
+2023-03-15 14:38:45,370 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2023-03-15 14:38:45,544 [    174]   INFO - ntellij.idea.ApplicationLoader - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@b12bd11[Running, parallelism = 8, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@62e2c57f 
+2023-03-15 14:38:45,615 [    245]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-193.6494.35, 11 Feb 2020 13:33) 
+2023-03-15 14:38:45,616 [    246]   INFO -        #com.intellij.idea.Main - OS: Mac OS X (10.16, x86_64) 
+2023-03-15 14:38:45,616 [    246]   INFO -        #com.intellij.idea.Main - JRE: 11.0.5+10-b520.38 (JetBrains s.r.o) 
+2023-03-15 14:38:45,616 [    246]   INFO -        #com.intellij.idea.Main - JVM: 11.0.5+10-b520.38 (OpenJDK 64-Bit Server VM) 
+2023-03-15 14:38:45,616 [    246]   INFO -        #com.intellij.idea.Main - JVM Args: -Dapple.awt.fileDialogForDirectories=true -Dapple.laf.useScreenMenuBar=true -Didea.classpath.index.enabled=false -Didea.config.path=/Users/yizhigang/CodeSpace/JavaProjects/android-string-manager-plugin-master/build/idea-sandbox/config -Didea.is.internal=true -Didea.platform.prefix=Idea -Didea.plugins.path=/Users/yizhigang/CodeSpace/JavaProjects/android-string-manager-plugin-master/build/idea-sandbox/plugins -Didea.required.plugins.id=com.easylokal.stringResourceHelper -Didea.smooth.progress=false -Didea.system.path=/Users/yizhigang/CodeSpace/JavaProjects/android-string-manager-plugin-master/build/idea-sandbox/system -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -ea 
+2023-03-15 14:38:45,617 [    247]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2023-03-15 14:38:45,982 [    612]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 573 ms 
+2023-03-15 14:38:46,541 [   1171]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-groovy.xml 
+2023-03-15 14:38:46,544 [   1174]   INFO - llij.ide.plugins.PluginManager - Plugin "Groovy" misses optional descriptor duplicates-detection-groovy.xml 
+2023-03-15 14:38:46,597 [   1227]   INFO - llij.ide.plugins.PluginManager - Plugin "Java" misses optional descriptor profiler-java.xml 
+2023-03-15 14:38:46,698 [   1328]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.3.5), Ant (193.6494.35), Bytecode Viewer (193.6494.35), ChangeReminder (193.6494.35), Configuration Script (193.6494.35), Copyright (193.6494.35), Coverage (193.6494.35), Eclipse Interoperability (193.6494.35), EditorConfig (193.6494.35), Git (193.6494.35), GitHub (193.6494.35), Gradle (193.6494.35), Gradle-Java (193.6494.35), Gradle-Maven (193.6494.35), Groovy (193.6494.35), IDEA CORE (193.6494.35), IntelliLang (193.6494.35), JUnit (193.6494.35), Java (193.6494.35), Java Bytecode Decompiler (193.6494.35), Java IDE Customization (193.6494.35), Java Internationalization (193.6494.35), Java Stream Debugger (193.6494.35), JavaFX (193.6494.35), Kotlin (1.3.61-release-IJ2019.3-1), Machine Learning Code Completion (193.6494.35), Markdown (193.6494.35), Maven (193.6494.35), Mercurial (193.6494.35), Plugin DevKit (193.6494.35), Properties (193.6494.35), Settings Repository (193.6494.35), Shell Script (193.6494.35), Smali Support (193.6494.35), Subversion (193.6494.35), Task Management (193.6494.35), Terminal (193.6494.35), TestNG (193.6494.35), TextMate bundles (193.6494.35), UI Designer (193.6494.35), XPathView + XSLT (193.6494.35), XSLT Debugger (193.6494.35), YAML (193.6494.35) 
+2023-03-15 14:38:46,699 [   1329]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: Android String Manager (0.0.2) 
+2023-03-15 14:38:47,291 [   1921]   INFO - fs.newvfs.persistent.FSRecords - Marking VFS as corrupted: '/Users/yizhigang/CodeSpace/JavaProjects/android-string-manager-plugin-master/build/idea-sandbox/system/caches/names.dat' does not exist 
+2023-03-15 14:38:47,312 [   1942]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=492; buffer=10; max=492 
+2023-03-15 14:38:47,484 [   2114]   INFO - tellij.util.io.FileChannelUtil - un-interruptible FileChannel-s will be used for indexes 
+2023-03-15 14:38:47,708 [   2338]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63344 
+2023-03-15 14:38:47,824 [   2454]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is disabled 
+2023-03-15 14:38:48,111 [   2741]   INFO - ntellij.util.proxy.CommonProxy - <html>You have JVM property "https.proxyHost" set to "127.0.0.1".<br>This may lead to incorrect behaviour. Proxy should be set in Settings | HTTP Proxy<br>This JVM property is old and its usage is not recommended by Oracle.<br>(Note: It could have been assigned by some code dynamically.)</html> 
+2023-03-15 14:38:48,274 [   2904]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2023-03-15 14:38:48,355 [   2985]   INFO - ntellij.util.proxy.CommonProxy - <html>You have JVM property "https.proxyHost" set to "127.0.0.1".<br>This may lead to incorrect behaviour. Proxy should be set in Settings | HTTP Proxy<br>This JVM property is old and its usage is not recommended by Oracle.<br>(Note: It could have been assigned by some code dynamically.)</html> 
+2023-03-15 14:38:48,684 [   3314]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:kotlin_builtins,DGM,Markdown,KNM,Kotlin,Properties,Groovy,HTML,XML,JAVA,KJSM,CLASS 
+2023-03-15 14:38:49,045 [   3675]   INFO - il.indexing.FileBasedIndexImpl - Indices to be built:FrameworkDetectionIndex,TodoIndex,IdIndex,FilenameIndex,filetypes,Stubs,Trigram.Index,fileIncludes,DomFileIndex,RelaxSymbolIndex,XmlTagNames,XmlNamespaces,html5.custom.attributes.index,SchemaTypeInheritance,json.file.root.values,ImageFileInfoIndex,bytecodeAnalysis,java.auto.module.name,java.source.module.name,java.null.method.argument,java.simple.property,java.fun.expression,java.binary.plus.expression,RefQueueIndex,xmlProperties,ant-imports,XsltSymbolIndex,GroovyDslFileIndex,groovy.trait.fields,groovy.trait.methods,FormClassIndex,IdeaPluginRegistrationIndex,PluginIdModuleIndex,PluginIdDependenciesIndex,devkit.ExtensionPointIndex,editorconfig.index.name,org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex,org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex,org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex,org.jetbrains.kotlin.ide.konan.index.KotlinNativeMetaFileIndex,DataBindingXmlIndex,JavaFxControllerClassIndex,javafx.id.name,javafx.custom.component,yaml.keys.name 
+2023-03-15 14:38:49,053 [   3683]   INFO - pl$FileIndexDataInitialization - Initialization done: 1640 
+2023-03-15 14:38:49,265 [   3895]   INFO - tellij.psi.stubs.StubIndexImpl - Following stub indices will be built:dom.namespaceKey,dom.elementClass,java.annotations,java.class.extlist,java.field.name,java.method.name,jvm.static.member.name,jvm.static.member.type,java.anonymous.baseref,java.method.parameter.types,java.class.shortname,java.class.fqn,java.module.name,properties.index,gr.class.fqn,gr.script.fqn,gr.field.name,gr.method.name,gr.annot.method.name,gr.annot.members,gr.script.class,gr.class.super,gr.anonymous.class,markdown.header,org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex,org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex,org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex,org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex,org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex,org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex,org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex 
+2023-03-15 14:38:49,266 [   3896]   INFO - exImpl$StubIndexInitialization - Initialization done: 200 
+2023-03-15 14:38:50,043 [   4673]   WARN - ConfigurableExtensionPointUtil - ignore deprecated groupId: language for id: preferences.language.Kotlin.scripting 
+2023-03-15 14:38:50,305 [   4935]   INFO - pi.util.registry.RegistryValue - Registry value 'java.completion.argument.hints' has changed to 'false' 
+2023-03-15 14:38:50,305 [   4935]   INFO - pi.util.registry.RegistryValue - Registry value 'java.completion.argument.hints.internal' has changed to 'false' 
+2023-03-15 14:38:52,192 [   6822]   INFO - CompilerWorkspaceConfiguration - Available processors: 8 
+2023-03-15 14:38:54,661 [   9291]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2023-03-15 14:39:01,267 [  15897]  ERROR - ellij.util.text.DateFormatUtil - Unable to load library 'CoreFoundation':
+dlopen(libCoreFoundation.dylib, 0x0009): tried: 'libCoreFoundation.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibCoreFoundation.dylib' (no such file), '/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_5-osx-x64-b520.38/jbr/Contents/Home/bin/../lib/jli/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache), 'libCoreFoundation.dylib' (no such file), '/usr/local/lib/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache)
+dlopen(libCoreFoundation.dylib, 0x0009): tried: 'libCoreFoundation.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibCoreFoundation.dylib' (no such file), '/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_5-osx-x64-b520.38/jbr/Contents/Home/bin/../lib/jli/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache), 'libCoreFoundation.dylib' (no such file), '/usr/local/lib/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache)
+Native library (darwin/libCoreFoundation.dylib) not found in resource path (/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/idea_rt.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/idea.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/bootstrap.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/extensions.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/util.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/openapi.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/trove4j.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/jdom.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/log4j.jar) 
+java.lang.UnsatisfiedLinkError: Unable to load library 'CoreFoundation':
+dlopen(libCoreFoundation.dylib, 0x0009): tried: 'libCoreFoundation.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibCoreFoundation.dylib' (no such file), '/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_5-osx-x64-b520.38/jbr/Contents/Home/bin/../lib/jli/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache), 'libCoreFoundation.dylib' (no such file), '/usr/local/lib/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache)
+dlopen(libCoreFoundation.dylib, 0x0009): tried: 'libCoreFoundation.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibCoreFoundation.dylib' (no such file), '/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_5-osx-x64-b520.38/jbr/Contents/Home/bin/../lib/jli/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache), 'libCoreFoundation.dylib' (no such file), '/usr/local/lib/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache)
+Native library (darwin/libCoreFoundation.dylib) not found in resource path (/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/idea_rt.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/idea.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/bootstrap.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/extensions.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/util.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/openapi.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/trove4j.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/jdom.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/log4j.jar)
+	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:302)
+	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:455)
+	at com.sun.jna.Library$Handler.<init>(Library.java:192)
+	at com.sun.jna.Native.load(Native.java:596)
+	at com.sun.jna.Native.load(Native.java:570)
+	at com.intellij.util.text.DateFormatUtil.getMacFormats(DateFormatUtil.java:355)
+	at com.intellij.util.text.DateFormatUtil.getDateTimeFormats(DateFormatUtil.java:295)
+	at com.intellij.util.text.DateFormatUtil.<clinit>(DateFormatUtil.java:45)
+	at com.intellij.ide.plugins.RepositoryHelper.lambda$loadPlugins$1(RepositoryHelper.java:140)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:518)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:500)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:56)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:350)
+	at com.intellij.ide.plugins.RepositoryHelper.loadPlugins(RepositoryHelper.java:130)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.checkPluginsUpdate(UpdateChecker.kt:202)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.getPluginUpdates(UpdateChecker.kt:107)
+	at com.intellij.ide.plugins.newui.PluginUpdatesService.lambda$calculateUpdates$1(PluginUpdatesService.java:184)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:238)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: java.lang.UnsatisfiedLinkError: dlopen(libCoreFoundation.dylib, 0x0009): tried: 'libCoreFoundation.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibCoreFoundation.dylib' (no such file), '/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_5-osx-x64-b520.38/jbr/Contents/Home/bin/../lib/jli/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache), 'libCoreFoundation.dylib' (no such file), '/usr/local/lib/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache)
+		at com.sun.jna.Native.open(Native Method)
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:191)
+		... 22 more
+	Suppressed: java.lang.UnsatisfiedLinkError: dlopen(libCoreFoundation.dylib, 0x0009): tried: 'libCoreFoundation.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OSlibCoreFoundation.dylib' (no such file), '/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains/jbre/jbr-11_0_5-osx-x64-b520.38/jbr/Contents/Home/bin/../lib/jli/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache), 'libCoreFoundation.dylib' (no such file), '/usr/local/lib/libCoreFoundation.dylib' (no such file), '/usr/lib/libCoreFoundation.dylib' (no such file, not in dyld cache)
+		at com.sun.jna.Native.open(Native Method)
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:204)
+		... 22 more
+	Suppressed: java.io.IOException: Native library (darwin/libCoreFoundation.dylib) not found in resource path (/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/idea_rt.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/idea.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/bootstrap.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/extensions.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/util.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/openapi.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/trove4j.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/jdom.jar:/Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3/lib/log4j.jar)
+		at com.sun.jna.Native.extractFromResourcePath(Native.java:1095)
+		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:276)
+		... 22 more
+2023-03-15 14:39:01,275 [  15905]  ERROR - ellij.util.text.DateFormatUtil - IntelliJ IDEA 2019.3.3  Build #IC-193.6494.35 
+2023-03-15 14:39:01,276 [  15906]  ERROR - ellij.util.text.DateFormatUtil - JDK: 11.0.5; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2023-03-15 14:39:01,277 [  15907]  ERROR - ellij.util.text.DateFormatUtil - OS: Mac OS X 
+2023-03-15 14:39:01,289 [  15919]  ERROR - ellij.util.text.DateFormatUtil - Last Action:  
+2023-03-15 14:39:01,295 [  15925]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 2023/3/15 下午2:38) 
+2023-03-15 14:39:01,340 [  15970]   INFO - j.ide.plugins.RepositoryHelper - using cached plugin list (updated at 2023/3/15 下午2:38) 
+2023-03-15 14:39:03,397 [  18027]   INFO - leScriptDefinitionsContributor - [kts] error loading gradle script templates: Project 'Default (Template) Project' isn't linked with Gradle 
+2023-03-15 14:39:03,401 [  18031]   INFO - leScriptDefinitionsContributor - [kts] error loading gradle script templates: Project 'Default (Template) Project' isn't linked with Gradle 
+2023-03-15 14:39:03,401 [  18031]   INFO - leScriptDefinitionsContributor - [kts] error loading gradle script templates: Project 'Default (Template) Project' isn't linked with Gradle 
+2023-03-15 14:39:04,369 [  18999]   INFO -   #com.intellij.util.Restarter - not supported: not a bundle: /Users/yizhigang/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2019.3.3/4c54deba9ff34a615b3072cd2def3558ff462987/ideaIC-2019.3.3 
+2023-03-15 14:39:05,077 [  19707]  ERROR - nSystem.impl.ActionManagerImpl - java.lang.reflect.InvocationTargetException [Plugin: com.easylokal.stringResourceHelper] 
+com.intellij.diagnostic.PluginException: java.lang.reflect.InvocationTargetException [Plugin: com.easylokal.stringResourceHelper]
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.instantiate(ActionManagerImpl.java:178)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.convertStub(ActionManagerImpl.java:154)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.getActionImpl(ActionManagerImpl.java:510)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.getAction(ActionManagerImpl.java:498)
+	at com.intellij.ide.ui.search.TraverseUIStarter.processKeymap(TraverseUIStarter.java:251)
+	at com.intellij.ide.ui.search.TraverseUIStarter.startup(TraverseUIStarter.java:116)
+	at com.intellij.ide.ui.search.TraverseUIStarter.main(TraverseUIStarter.java:78)
+	at com.intellij.idea.ApplicationLoader$startApp$8$1.run(ApplicationLoader.kt:240)
+	at com.intellij.openapi.application.TransactionGuardImpl.performUserActivity(TransactionGuardImpl.java:193)
+	at com.intellij.idea.ApplicationLoader$startApp$8.run(ApplicationLoader.kt:239)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:783)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:776)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:727)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:746)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:908)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:781)
+	at com.intellij.ide.IdeEventQueue.lambda$dispatchEvent$8(IdeEventQueue.java:424)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:698)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:423)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.intellij.util.ExceptionUtil.rethrow(ExceptionUtil.java:116)
+	at com.intellij.util.ReflectionUtil.createAsDataClass(ReflectionUtil.java:469)
+	at com.intellij.util.ReflectionUtil.newInstance(ReflectionUtil.java:402)
+	at com.intellij.util.ReflectionUtil.newInstance(ReflectionUtil.java:376)
+	at com.intellij.openapi.actionSystem.impl.ActionManagerImpl.instantiate(ActionManagerImpl.java:171)
+	... 29 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.intellij.util.ReflectionUtil.createAsDataClass(ReflectionUtil.java:445)
+	... 32 more
+Caused by: java.awt.HeadlessException
+	at java.desktop/java.awt.GraphicsEnvironment.checkHeadless(GraphicsEnvironment.java:208)
+	at java.desktop/java.awt.Window.<init>(Window.java:548)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:423)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:388)
+	at java.desktop/javax.swing.JFrame.<init>(JFrame.java:180)
+	at StringExtractor.<init>(StringExtractor.kt:12)
+	... 37 more
+2023-03-15 14:39:05,082 [  19712]  ERROR - nSystem.impl.ActionManagerImpl - IntelliJ IDEA 2019.3.3  Build #IC-193.6494.35 
+2023-03-15 14:39:05,082 [  19712]  ERROR - nSystem.impl.ActionManagerImpl - JDK: 11.0.5; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o 
+2023-03-15 14:39:05,083 [  19713]  ERROR - nSystem.impl.ActionManagerImpl - OS: Mac OS X 
+2023-03-15 14:39:05,083 [  19713]  ERROR - nSystem.impl.ActionManagerImpl - Plugin to blame: Android String Manager version: 0.0.2 
+2023-03-15 14:39:05,083 [  19713]  ERROR - nSystem.impl.ActionManagerImpl - Last Action:  
+2023-03-15 14:39:05,243 [  19873]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2023-03-15 14:39:05,285 [  19915]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2023-03-15 14:39:05,286 [  19916]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2023-03-15 14:39:05,291 [  19921]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2023-03-15 14:39:05,291 [  19921]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2023-03-15 14:39:05,310 [  19940]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2023-03-15 14:39:05,310 [  19940]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2023-03-15 14:39:05,325 [  19955]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
